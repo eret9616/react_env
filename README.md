@@ -37,4 +37,15 @@ npm run dev
 2.  查看npmjs文档,使用文件的template属性来初始化
      然后再npm run dev <br/><br/>
 
-
+**React使用**
+1.  运行npm install react react-dom --save  
+    react:用于创建组件和虚拟DOM 同时组件的生命周期都在这个包中  
+    react-dom 专门进行DOM操作 最主要的应用场景是ReactDOM.render()  
+2.  import React from 'react'  
+    import ReactDOM from 'react-dom'  
+    const myh1 = React.createElement('h1',{id:..,title:..},'这是一个大大的子节点')  
+    const mydiv = React.createElement('div',null,'这是一个div',myh1)  
+3.  ReactDOM.render(mydiv,document.getElementById('app'))  
+4.  如果每次都用React.createElement(<T>,props,childNodes)  
+              ReactDOM.render(react_obj,element)这种写法太复杂了  
+    于是React出了JSX语法，能像XML一样去书写元素。jsx通过使用babel转换，生成react对象  
