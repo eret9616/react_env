@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/eret9616/react_env#readme",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.22.0",
     "webpack-dev-server": "^3.1.10"

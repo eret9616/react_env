@@ -12,7 +12,6 @@
    默认约定了:
     + 打包入口是 src -> index.js
     + 打包的输出文件是 dist -> main.js    
-[webpack.js.org](https://webpack.js.org/)
 5. 运行webpack命令<br/><br/>
 
 **webpack-dev-server的使用**  
@@ -48,4 +47,12 @@ npm run dev
 3.  ReactDOM.render(mydiv,document.getElementById('app'))  
 4.  如果每次都用React.createElement(<T>,props,childNodes)  
               ReactDOM.render(react_obj,element)这种写法太复杂了  
-    于是React出了JSX语法，能像XML一样去书写元素。jsx通过使用babel转换，生成react对象  
+    于是React出了JSX语法，能像XML一样去书写元素。jsx通过使用babel转换，生成react对象  <br/><br/>
+
+**JSX语法** ([balbeljs](https://babeljs.io/setup#installation))
+1.  npm install --save-dev babel-loader @babel/core
+2.  npm install --save-dev @babel/preset-react
+3.  配置webpack.config.js中的loaders
+4.  配置.babelrc文件
+5.  在JSX中书写JS代码  
+    结论:变量要用{ }包裹起来
