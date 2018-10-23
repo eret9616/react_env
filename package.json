@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open chrome --hot"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/eret9616/react_env/issues"
   },
-  "homepage": "https://github.com/eret9616/react_env#readme"
+  "homepage": "https://github.com/eret9616/react_env#readme",
+  "devDependencies": {
+    "webpack": "^4.22.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.1.2"
+  }
 }
