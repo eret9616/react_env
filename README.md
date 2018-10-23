@@ -29,4 +29,12 @@
 npm run dev  
 通过localhost:8080/main.js可以看到这个打包后的文件,但是webpack-dev-server打包好的文件是托管在内存中  
 *服务器会在内存中托管打包生成s，没有在物理磁盘中生成。  
-*不会在项目的根目录下(磁盘中)看到这个文件。  
+*不会在项目的根目录下(磁盘中)看到这个文件。 <br/><br/> 
+
+**html-webpack-plugin插件的使用**
+1.  npm install html-webpack-plugin --save-dev
+    这个插件可以在内存中托管html页面
+2.  查看npmjs文档,使用文件的template属性来初始化
+     然后再npm run dev <br/><br/>
+
+

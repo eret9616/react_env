@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/eret9616/react_env#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.22.0",
     "webpack-dev-server": "^3.1.10"
   },
