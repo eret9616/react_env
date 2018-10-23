@@ -1,8 +1,4 @@
-## react_env
-
----
-
-从webpack到babel再到react
+## 从webpack到babel再到react
 
 从webpack开始:
 1. npm init -y
