@@ -1,6 +1,6 @@
-## 从webpack到babel再到react
+# 从webpack到react再到babel
 
-从webpack开始:
+从webpack说起:
 1. npm init -y
 2. 在根目录创建src目录和dist目录
 3. npm install webpack -g
