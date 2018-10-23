@@ -1,4 +1,4 @@
-# 从webpack到react再到babel
+# react_env
 
 从webpack说起:
 1. npm init -y
@@ -45,7 +45,7 @@ npm run dev
               ReactDOM.render(react_obj,element)这种写法太复杂了  
     于是React出了JSX语法，能像XML一样去书写元素。jsx通过使用babel转换，生成react对象  <br/><br/>
 
-**JSX语法** ([balbeljs](https://babeljs.io/setup#installation))
+**JSX语法**
 1.  npm install --save-dev babel-loader @babel/core
 2.  npm install --save-dev @babel/preset-react
 3.  配置webpack.config.js中的loaders
